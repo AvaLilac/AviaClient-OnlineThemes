@@ -14,3 +14,7 @@ button[data-avia-voice-btn="true"] { --colour: #b7bdf8; } button[data-avia-voice
 
 button[data-avia-search-btn="true"] { --colour: #b7bdf8; }
 button[data-avia-search-btn="true"] .material-symbols-outlined { color: var(--colour) !important; }
+
+#avia-menu-toolbar-btn .material-symbols-outlined {
+  color: #b7bdf8 !important;
+}
