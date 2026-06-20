@@ -14,6 +14,9 @@ button[aria-label="Join the voice channel"] .material-symbols-outlined {
   color: #b7bdf8 !important;
 }
 
+button[data-avia-search-btn="true"] { --colour: #b7bdf8; }
+button[data-avia-search-btn="true"] .material-symbols-outlined { color: var(--colour) !important; }
+
 #avia-menu-toolbar-btn .material-symbols-outlined {
   color: #b7bdf8 !important;
 }
